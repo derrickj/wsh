@@ -110,14 +110,6 @@ if (window.widget) {
 }
 
 
-function myClickHandler(event)
-{
-    //get text from box
-    alert("hello world!");
-    
-}
-
-
 function myKeypressHandler(event)
 {
     var pressedChar = event.charCode;
@@ -128,6 +120,6 @@ function myKeypressHandler(event)
         // Do something with the input data. Want to run a command
         var command = textFieldValue.value
         widget.system("/bin/sh -c \"" + command +"\"", null);
-        //widget.system("/usr/bin/say " + command, null);
+        
     }
 }

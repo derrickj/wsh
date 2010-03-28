@@ -17,7 +17,7 @@
 		</array>
 	</dict>
 	<key>ContentViewType</key>
-	<integer>4</integer>
+	<integer>0</integer>
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Destination</key>
@@ -78,7 +78,9 @@
 		<key>Objects view last selections</key>
 		<array>
 			<array>
-				<integer>4</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>3</integer>
 			</array>
 		</array>
 		<key>Opened Steps</key>
@@ -89,7 +91,7 @@
 		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>back</string>
+			<string>front</string>
 		</array>
 	</dict>
 </dict>

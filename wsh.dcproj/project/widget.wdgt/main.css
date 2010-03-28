@@ -73,23 +73,12 @@ body {
     margin-right: auto;
 }
 
-#glassButton {
-    cursor: default;
-    -khtml-user-select: none;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    left: 467px;
-    top: 29px;
-}
-
 #textField {
     position: absolute;
     color: black;
     font-family: HelveticaNeue;
     font-size: 10pt;
     top: 27px;
-    width: 420px;
     left: 34px;
+    width: 469px;
 }

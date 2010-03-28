@@ -6,7 +6,6 @@
  */
 var dashcodePartSpecs = {
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
-    "glassButton": { "creationFunction": "CreateGlassButton", "onclick": "myClickHandler", "text": "OK" },
     "helloText": { "text": "Wsh", "view": "DC.Text" },
     "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" }
 };
