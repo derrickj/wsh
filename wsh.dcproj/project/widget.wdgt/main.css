@@ -78,7 +78,25 @@ body {
     color: black;
     font-family: HelveticaNeue;
     font-size: 10pt;
-    top: 27px;
     left: 34px;
     width: 469px;
+    top: 28px;
+}
+
+#workingDirectoryText {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 34px;
+    top: 54px;
+    right: 30px;
+    width: auto;
+    height: auto;
+}
+
+.selected #workingDirectoryText {
+    color: white;
 }
