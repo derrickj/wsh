@@ -64,9 +64,9 @@ body {
     color: black;
     font-family: HelveticaNeue;
     font-size: 10pt;
-    top: 309px;
-    left: 12px;
-    width: 588px;
+    top: 351px;
+    left: 6px;
+    width: 713px;
 }
 
 #box {
@@ -81,8 +81,8 @@ body {
     margin-top: 0px;
     right: 0px;
     bottom: 340px;
-    width: 619px;
-    height: 339px;
+    width: 730px;
+    height: 378px;
+    left: 4px;
     top: 0px;
-    left: 0px;
 }
