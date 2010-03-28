@@ -113,6 +113,7 @@ if (window.widget) {
 function myKeypressHandler(event)
 {
     var pressedChar = event.charCode;
+    //only do something when the Enter Key is pressed (Code 13)
     if ( pressedChar == 13 ){
         // Values you provide
         var textFieldValue = document.getElementById("textField");
@@ -121,5 +122,12 @@ function myKeypressHandler(event)
         var command = textFieldValue.value
         widget.system("/bin/sh -c \"" + command +"\"", null);
         
+        //Let's display output
+        var textAreaToChange = document.getElementById("outputBox");
+        var newTextAreaText = "String to display";			// value to change range to
+
+        // Text area code
+        textAreaToChange.value = newTextAreaText;
+
     }
 }
