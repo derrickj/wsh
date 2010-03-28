@@ -10,11 +10,11 @@ body {
 
 #frontImg {
     position: absolute;
-    display: block;
     top: 0px;
     left: 0px;
     right: 0px;
     bottom: 27px;
+    display: none;
     width: auto;
     height: auto;
 }
@@ -50,20 +50,6 @@ body {
     margin-top: auto;
 }
 
-#helloText {
-    position: absolute;
-    color: black;
-    font-family: HelveticaNeue-Bold;
-    font-size: 11pt;
-    top: 13px;
-    width: 35px;
-    right: 255px;
-    margin-left: auto;
-    left: 254px;
-    margin-right: auto;
-    height: auto;
-}
-
 #backDevelopedWith {
     position: absolute;
     width: 150px;
@@ -78,25 +64,26 @@ body {
     color: black;
     font-family: HelveticaNeue;
     font-size: 10pt;
-    left: 34px;
-    width: 469px;
-    top: 28px;
+    top: 309px;
+    left: 12px;
+    width: 588px;
 }
 
-#workingDirectoryText {
-    font-size: 13px;
-    font-family: 'Lucida Grande', Arial, sans-serif;
-    text-overflow: ellipsis;
-    overflow: hidden;
+#box {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    background-color: white;
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
     position: absolute;
     margin-top: 0px;
-    left: 34px;
-    top: 54px;
-    right: 30px;
-    width: auto;
-    height: auto;
-}
-
-.selected #workingDirectoryText {
-    color: white;
+    right: 0px;
+    bottom: 340px;
+    width: 619px;
+    height: 339px;
+    top: 0px;
+    left: 0px;
 }
