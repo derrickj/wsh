@@ -95,8 +95,9 @@ body {
     right: auto;
     bottom: auto;
     margin-top: 0px;
-    top: 21px;
-    left: 25px;
-    height: 325px;
-    width: 673px;
+    background-color: rgba(255, 255, 255, 0);
+    height: 344px;
+    top: 2px;
+    left: 6px;
+    width: 716px;
 }

@@ -120,7 +120,7 @@ function myKeypressHandler(event)
 
         // Do something with the input data. Want to run a command
         var command = textFieldValue.value
-        widget.system("/bin/sh -c \"" + command +"\"", null);
+        var lastSystemCall = widget.system("/bin/sh -c \"" + command +"\"", null);
         
         //Let's display output
         var textAreaToChange = document.getElementById("outputBox");
