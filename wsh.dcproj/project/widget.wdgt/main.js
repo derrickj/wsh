@@ -123,7 +123,15 @@ function myKeypressHandler(event)
         var lastSystemCall = widget.system("/bin/sh -c \"" + command +"\"", null);
         
         //Let's display output
-        var newTextAreaText = lastSystemCall.outputString + lastSystemCall.errorString;
+        var newTextAreaText = "";
+        if ( lastSystemCall.outputString != undefined ){
+            newTextAreaText = newTextAreaText + lastSystemCall.outputString;
+        }
+        
+        if ( lastSystemCall.errorString != undefined ){
+            newTextAreaText = newTextAreaText + lastSystemCall.errorString;
+        }
+        
         var textAreaToChange = document.getElementById("outputBox");
         textAreaToChange.value = newTextAreaText;
         
