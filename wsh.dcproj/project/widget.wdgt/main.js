@@ -126,6 +126,9 @@ function myKeypressHandler(event)
         var newTextAreaText = lastSystemCall.outputString + lastSystemCall.errorString;
         var textAreaToChange = document.getElementById("outputBox");
         textAreaToChange.value = newTextAreaText;
+        
+        //clear command input
+        textFieldValue.value = null;
 
     }
 }
